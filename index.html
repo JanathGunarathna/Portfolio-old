@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Janath Gunarathna - Personal Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/[email protected]/dist/interact.min.js"></script>
+  <style>
+    /* Custom styles go here */
+  </style>
+</head>
+<body class="font-sans bg-gray-100 text-gray-800">
+  <header class="bg-white shadow-md py-4 px-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <a href="#" class="text-2xl font-bold text-indigo-500">Janath Gunarathna</a>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-indigo-500">Home</a></li>
+          <li><a href="#" class="hover:text-indigo-500">About</a></li>
+          <li><a href="#" class="hover:text-indigo-500">Projects</a></li>
+          <li><a href="#" class="hover:text-indigo-500">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mx-auto my-12 px-6">
+    <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div>
+        <h1 class="text-4xl font-bold mb-4">Welcome to my Portfolio</h1>
+        <p class="text-lg mb-6">I'm Janath Gunarathna, a dedicated and multifaceted IT professional.</p>
+        <a href="#" class="bg-indigo-500 text-white px-6 py-3 rounded-md hover:bg-indigo-600 transition-colors">Explore my Projects</a>
+      </div>
+      <div class="flex justify-center">
+        <img src="/api/placeholder/400/320" alt="Placeholder" class="rounded-lg shadow-lg">
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-3xl font-bold mb-4">About Me</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <h3 class="text-xl font-bold mb-2">Academic and Professional Background</h3>
+          <p>Janath is a dedicated IT professional currently pursuing his final year of undergraduate studies at the University of Moratuwa.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">Technical Proficiency and Projects</h3>
+          <p>Janath's technical expertise spans various programming languages, frameworks, and libraries, including React JS, Node.js, and more.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">Leadership and Community Involvement</h3>
+          <p>Janath has held various leadership positions in the Leo Club of the University of Moratuwa, showcasing his commitment to community service.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">Personal Goals and Interests</h3>
+          <p>Janath is focused on his personal growth and well-being, with goals to improve his physical health and expand his technical skills.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-3xl font-bold mb-4">Featured Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="/api/placeholder/400/250" alt="Project 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">JCGN Project</h3>
+            <p>Janath developed the CRUD functionality for the church app's career, worship, and news sections.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="/api/placeholder/400/250" alt="Project 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Ieducation Project</h3>
+            <p>Janath worked on the doctor and patient modules, later helping to remake the app based on client feedback.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="/api/placeholder/400/250" alt="Project 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-bold mb-2">Tea Export Forecasting</h3>
+            <p>Janath is currently working on his final-year project, using machine learning to forecast tea exports in Sri Lanka.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-12">
+      <h2 class="text-3xl font-bold mb-4">Get in Touch</h2>
+      <form class="bg-white rounded-lg shadow-lg p-6">
+        <div class="mb-4">
+          <label for="name" class="block font-bold mb-2">Name</label>
+          <input type="text" id="name" name="name" class="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block font-bold mb-2">Email</label>
+          <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-indigo-500" required>
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block font-bold mb-2">Message</label>
+          <textarea id="message" name="message" rows="4" class="w-full border-gray-300 rounded-md py-2 px-3 focus:outline-none focus:ring-2 focus:ring-indigo-500" required></textarea>
+        </div>
+        <button type="submit" class="bg-indigo-500 text-white px-6 py-3 rounded-md hover:bg-indigo-600 transition-colors">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <p>&copy; 2024 Janath Gunarathna. All rights reserved.</p>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="hover:text-indigo-400">Home</a></li>
+          <li><a href="#" class="hover:text-indigo-400">About</a></li>
+          <li><a href="#" class="hover:text-indigo-400">Projects</a></li>
+          <li><a href="#" class="hover:text-indigo-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    // Add any necessary JavaScript functionality here
+  </script>
+</body>
+</html>
